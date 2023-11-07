@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ready-01-fastjson/pom.xml" />
+        <option value="$PROJECT_DIR$/ready-02-fastjson/pom.xml" />
+        <option value="$PROJECT_DIR$/ready-02-httpclient/pom.xml" />
+        <option value="$PROJECT_DIR$/ready-03-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/ready-04-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/micr-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/micr-dataservice/pom.xml" />
+        <option value="$PROJECT_DIR$/micr-web/pom.xml" />
+        <option value="$PROJECT_DIR$/ajax-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/axios-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/micr-task/pom.xml" />
+        <option value="$PROJECT_DIR$/kq-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/micr-pay/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ajax-demo/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

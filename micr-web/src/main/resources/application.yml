@@ -1,0 +1,51 @@
+spring:
+  application:
+    name: micr-web
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  redis:
+    host: localhost
+    port: 6379
+
+server:
+  port: 8000
+  servlet:
+    context-path: /api
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+
+dubbo:
+  registry:
+    address: zookeeper://localhost:2181
+  scan:
+    base-packages: front
+  consumer:
+    check: false
+    timeout: 50000
+    retries: 0
+
+#短信配置
+jdwx:
+  sms:
+    url: http://gwgp-wtxhytukujk.n.bdcloudapi.com/chuangxinsms/dxjk
+    appkey: 249eefd0a9aa4080a369dadf3cff41ee
+    appsecret: c8052fa2f35549b1941d320391473f45
+    content: 【创信】你的验证码是：5873，3分钟内有效！
+    login-text: 【创信】你的登录验证码是：%s，3分钟内有效！
+  realname:
+    url: http,https://jmidcard2.api.bdymkt.com/idcard/validate_standard
+    apikey: 249eefd0a9aa4080a369dadf3cff41ee
+    appsecret: c8052fa2f35549b1941d320391473f45
+
+
+#密码加盐
+ylb:
+  config:
+    password-salt: c8052fa2f35549b1941d320391473f45
+
+
+jwt:
+  secret: 8339abdf4e694b35bc2de7044a9a8077

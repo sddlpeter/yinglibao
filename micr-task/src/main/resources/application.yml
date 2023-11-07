@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: micr-task
+dubbo:
+  scan:
+    base-packages: com.powernode.task
+  registry:
+    address: zookeeper://localhost:2181
+  consumer:
+    timeout: 50000
+    check: false
+    retries: 0
